@@ -1,4 +1,3 @@
-cat <<EOL > README.md
 # **Análise de Repositórios Populares do GitHub**
 
 Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do GitHub, utilizando a API GraphQL para coletar dados e técnicas de análise para responder a questões de pesquisa sobre suas características. O projeto inclui coleta automatizada de dados, processamento e visualização dos resultados.

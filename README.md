@@ -1,5 +1,4 @@
-# Laboratório de Experimentação de Software
-
+cat <<EOL > README.md
 # **Análise de Repositórios Populares do GitHub**
 
 Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do GitHub, utilizando a API GraphQL para coletar dados e técnicas de análise para responder a questões de pesquisa sobre suas características. O projeto inclui coleta automatizada de dados, processamento e visualização dos resultados.
@@ -126,3 +125,32 @@ python src/analysis.py
 Esse script processa os dados e gera **estatísticas descritivas** e **gráficos** para responder às perguntas da pesquisa.
 
 ---
+
+## **Contribuição**
+Se quiser contribuir com melhorias no código ou na análise dos dados, siga os passos:
+
+1. Faça um **fork** do repositório.
+2. Crie uma **branch** para a sua alteração:
+   \`\`\`bash
+   git checkout -b minha-contribuicao
+   \`\`\`
+3. Commit suas mudanças:
+   \`\`\`bash
+   git commit -m "Melhoria na análise de dados"
+   \`\`\`
+4. Envie as mudanças para o seu fork:
+   \`\`\`bash
+   git push origin minha-contribuicao
+   \`\`\`
+5. Abra um **Pull Request** para revisão.
+
+---
+
+## **Licença**
+Este projeto está licenciado sob a **MIT License**, permitindo seu uso, modificação e distribuição.
+
+---
+
+## **Contato**
+Caso tenha dúvidas ou sugestões, entre em contato via GitHub Issues ou envie um e-mail. 🚀
+EOL

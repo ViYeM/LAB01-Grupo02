@@ -1,5 +1,4 @@
 # Laboratório de Experimentação de Software
-# Análise de Repositórios Populares no GitHub
 
 # **Análise de Repositórios Populares do GitHub**
 

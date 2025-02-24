@@ -59,9 +59,9 @@ pip install -r requirements.txt
 
 Caso o arquivo \`requirements.txt\` não esteja disponível, instale manualmente:
 
-\`\`\`bash
+```bash
 pip install requests pandas matplotlib seaborn
-\`\`\`
+```
 
 ---
 
@@ -75,10 +75,10 @@ Para acessar a API GraphQL do GitHub, você precisa gerar um **Personal Access T
 4. Copie o token gerado.
 5. No arquivo \`query_github.py\`, substitua \`"SEU_TOKEN_AQUI"\` pelo seu token real:
 
-\`\`\`python
+```python
 token = "SEU_TOKEN_AQUI"
 headers = {"Authorization": f"Bearer {token}"}
-\`\`\`
+```
 
 ---
 
@@ -87,40 +87,40 @@ headers = {"Authorization": f"Bearer {token}"}
 ### **1. Instalar o Python 3**
 Se você estiver no **macOS**, pode instalar o Python via [Homebrew](https://brew.sh/):
 
-\`\`\`bash
+```bash
 brew install python
-\`\`\`
+```
 
 ### **2. Criar um Ambiente Virtual**
 Para evitar conflitos com outras instalações, crie e ative um ambiente virtual:
 
-\`\`\`bash
+```bash
 python3 -m venv env
 source env/bin/activate  # Para macOS/Linux
-\`\`\`
+```
 
 ### **3. Instalar Dependências**
 Com o ambiente virtual ativado, instale as bibliotecas necessárias:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### **4. Executar a Coleta de Dados**
 Após configurar seu token do GitHub, execute o script de coleta:
 
-\`\`\`bash
+```bash
 python src/query_github.py
-\`\`\`
+```
 
 O script **consulta a API do GitHub via GraphQL**, coletando informações de até **1.000 repositórios mais populares** e armazenando no arquivo \`github_repositories.csv\`.
 
 ### **5. Executar a Análise dos Dados**
 Com os dados coletados, você pode executar a análise estatística e visualizações:
 
-\```bash
+```bash
 python src/analysis.py
-\```
+```
 
 Esse script processa os dados e gera **estatísticas descritivas** e **gráficos** para responder às perguntas da pesquisa.
 
@@ -131,26 +131,17 @@ Se quiser contribuir com melhorias no código ou na análise dos dados, siga os 
 
 1. Faça um **fork** do repositório.
 2. Crie uma **branch** para a sua alteração:
-   \`\`\`bash
+   ```bash
    git checkout -b minha-contribuicao
-   \`\`\`
+   ```
 3. Commit suas mudanças:
-   \`\`\`bash
+   ```bash
    git commit -m "Melhoria na análise de dados"
-   \`\`\`
+   ```
 4. Envie as mudanças para o seu fork:
-   \`\`\`bash
+   ```bash
    git push origin minha-contribuicao
-   \`\`\`
+   ```
 5. Abra um **Pull Request** para revisão.
 
 ---
-
-## **Licença**
-Este projeto está licenciado sob a **MIT License**, permitindo seu uso, modificação e distribuição.
-
----
-
-## **Contato**
-Caso tenha dúvidas ou sugestões, entre em contato via GitHub Issues ou envie um e-mail. 🚀
-EOL

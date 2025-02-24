@@ -53,9 +53,9 @@ Este projeto foi desenvolvido utilizando **Python 3** e as seguintes bibliotecas
 
 Para instalar todas as dependências de uma vez, execute:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 Caso o arquivo \`requirements.txt\` não esteja disponível, instale manualmente:
 

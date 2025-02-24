@@ -1,4 +1,3 @@
-cat <<EOL > README.md
 # **Análise de Repositórios Populares do GitHub**
 
 Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do GitHub, utilizando a API GraphQL para coletar dados e técnicas de análise para responder a questões de pesquisa sobre suas características. O projeto inclui coleta automatizada de dados, processamento e visualização dos resultados.
@@ -33,11 +32,11 @@ Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do
 ## **Estrutura do Projeto**
 
 📂 **src**  
-　┣ 📜 \`query_github.py\` → Script responsável pela consulta à API GraphQL do GitHub para coletar dados dos repositórios.  
-　┣ 📜 \`analysis.py\` → Script para processar, analisar e visualizar os dados coletados.  
+　┣ 📜 `query_github.py` → Script responsável pela consulta à API GraphQL do GitHub para coletar dados dos repositórios.  
+　┣ 📜 `analysis.py` → Script para processar, analisar e visualizar os dados coletados.  
 
 📂 **data**  
-　┣ 📜 \`github_repositories.csv\` → Arquivo contendo os dados brutos coletados da API do GitHub.  
+　┣ 📜 `github_repositories.csv` → Arquivo contendo os dados brutos coletados da API do GitHub.  
 
 📜 **README.md** → Este arquivo, contendo a documentação do projeto.  
 
@@ -47,9 +46,9 @@ Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do
 
 Este projeto foi desenvolvido utilizando **Python 3** e as seguintes bibliotecas:
 
-- \`requests\` → Para requisições à API do GitHub.
-- \`pandas\` → Para manipulação e análise dos dados coletados.
-- \`matplotlib\` e \`seaborn\` → Para criação de gráficos e visualizações.
+- `requests` → Para requisições à API do GitHub.
+- `pandas` → Para manipulação e análise dos dados coletados.
+- `matplotlib` e `seaborn` → Para criação de gráficos e visualizações.
 
 Para instalar todas as dependências de uma vez, execute:
 
@@ -57,7 +56,7 @@ Para instalar todas as dependências de uma vez, execute:
 pip install -r requirements.txt
 ```
 
-Caso o arquivo \`requirements.txt\` não esteja disponível, instale manualmente:
+Caso o arquivo `requirements.txt` não esteja disponível, instale manualmente:
 
 ```bash
 pip install requests pandas matplotlib seaborn
@@ -73,7 +72,7 @@ Para acessar a API GraphQL do GitHub, você precisa gerar um **Personal Access T
 2. Clique em **Generate new token**.
 3. Selecione as permissões necessárias (*repo* e *read:org* são suficientes).
 4. Copie o token gerado.
-5. No arquivo \`query_github.py\`, substitua \`"SEU_TOKEN_AQUI"\` pelo seu token real:
+5. No arquivo `query_github.py`, substitua `"SEU_TOKEN_AQUI"` pelo seu token real:
 
 ```python
 token = "SEU_TOKEN_AQUI"
@@ -113,7 +112,7 @@ Após configurar seu token do GitHub, execute o script de coleta:
 python src/query_github.py
 ```
 
-O script **consulta a API do GitHub via GraphQL**, coletando informações de até **1.000 repositórios mais populares** e armazenando no arquivo \`github_repositories.csv\`.
+O script **consulta a API do GitHub via GraphQL**, coletando informações de até **1.000 repositórios mais populares** e armazenando no arquivo `github_repositories.csv`.
 
 ### **5. Executar a Análise dos Dados**
 Com os dados coletados, você pode executar a análise estatística e visualizações:
@@ -126,22 +125,5 @@ Esse script processa os dados e gera **estatísticas descritivas** e **gráficos
 
 ---
 
-## **Contribuição**
-Se quiser contribuir com melhorias no código ou na análise dos dados, siga os passos:
-
-1. Faça um **fork** do repositório.
-2. Crie uma **branch** para a sua alteração:
-   ```bash
-   git checkout -b minha-contribuicao
-   ```
-3. Commit suas mudanças:
-   ```bash
-   git commit -m "Melhoria na análise de dados"
-   ```
-4. Envie as mudanças para o seu fork:
-   ```bash
-   git push origin minha-contribuicao
-   ```
-5. Abra um **Pull Request** para revisão.
 
 ---

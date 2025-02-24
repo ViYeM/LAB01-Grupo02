@@ -123,7 +123,3 @@ python src/analysis.py
 
 Esse script processa os dados e gera **estatísticas descritivas** e **gráficos** para responder às perguntas da pesquisa.
 
----
-
-
----

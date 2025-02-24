@@ -120,7 +120,7 @@ Com os dados coletados, você pode executar a análise estatística e visualiza�
 
 \```bash
 python src/analysis.py
-```\
+\```
 
 Esse script processa os dados e gera **estatísticas descritivas** e **gráficos** para responder às perguntas da pesquisa.
 

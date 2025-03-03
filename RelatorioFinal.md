@@ -70,9 +70,3 @@ Para avaliar se sistemas escritos nas linguagens mais populares recebem mais con
 ## Conclusão
 
 Os repositórios populares no GitHub, em sua maioria, são antigos, frequentemente atualizados e utilizam linguagens amplamente adotadas. Contudo, métricas como pull requests aceitas, número de releases e percentual de issues fechadas requerem uma atualização na consulta GraphQL para uma análise mais aprofundada.
-
-## Próximos Passos
-
-- **Aprimorar a consulta GraphQL** para coletar todas as métricas necessárias.
-- **Explorar padrões de contribuição** em diferentes linguagens.
-- **Realizar comparações** entre repositórios com diferentes níveis de popularidade.

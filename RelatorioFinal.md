@@ -57,7 +57,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
   - **TypeScript**  
 
 - **Discussão**: Os resultados confirmam a hipótese de que repositórios populares utilizam linguagens amplamente adotadas na indústria.
-
+![Descrição da imagem](image/Grafico05.jpeg)
 ### RQ 06: Sistemas populares possuem um alto percentual de issues fechadas?
 
 - **Razão issues fechadas / total de issues**: (Necessário atualizar consulta GraphQL para obter esse dado)  
@@ -66,7 +66,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ### RQ 07: Relação entre linguagem e métricas de contribuição
 
 Para avaliar se sistemas escritos nas linguagens mais populares recebem mais contribuições, lançam mais releases e são atualizados com mais frequência, analisamos a média dessas métricas por linguagem. (Necessário coletar os dados específicos).
-
+![Descrição da imagem](image/Grafico07.jpeg)
 ## Conclusão
 
 Os repositórios populares no GitHub, em sua maioria, são antigos, frequentemente atualizados e utilizam linguagens amplamente adotadas. Contudo, métricas como pull requests aceitas, número de releases e percentual de issues fechadas requerem uma atualização na consulta GraphQL para uma análise mais aprofundada.

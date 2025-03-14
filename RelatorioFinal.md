@@ -62,7 +62,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 - **Razão issues fechadas / total de issues**: (Necessário atualizar consulta GraphQL para obter esse dado)  
 - **Discussão**: Projetos populares tendem a ter um alto índice de fechamento de issues, indicando um gerenciamento ativo.
-
+![Descrição da imagem](image/Grafico06.jpeg)
 ### RQ 07: Relação entre linguagem e métricas de contribuição
 
 Para avaliar se sistemas escritos nas linguagens mais populares recebem mais contribuições, lançam mais releases e são atualizados com mais frequência, analisamos a média dessas métricas por linguagem. (Necessário coletar os dados específicos).

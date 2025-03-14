@@ -36,7 +36,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 - **Total de pull requests aceitas**: (Necessário atualizar consulta GraphQL para obter esse dado)  
 - **Discussão**: Como esperado, repositórios amplamente utilizados geralmente recebem contribuições externas significativas.
-
+![Descrição da imagem](image/Grafico02.jpeg)
 ### RQ 03: Sistemas populares lançam releases com frequência?
 
 - **Total de releases**: (Necessário atualizar consulta GraphQL para obter esse dado)  

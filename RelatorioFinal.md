@@ -41,7 +41,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 - **Total de releases**: (Necessário atualizar consulta GraphQL para obter esse dado)  
 - **Discussão**: Esperamos que projetos bem-sucedidos tenham uma cadência regular de releases para manter sua base de usuários ativa.
-
+![Descrição da imagem](image/Grafico03.jpeg)
 ### RQ 04: Sistemas populares são atualizados com frequência?
 
 - **Mediana de dias desde a última atualização**: **7 dias**  

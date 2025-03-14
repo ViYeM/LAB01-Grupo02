@@ -31,7 +31,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 - **Mediana da idade dos repositórios**: **8,3 anos**  
 - **Discussão**: A maioria dos repositórios analisados já existe há mais de 8 anos, confirmando a hipótese de que projetos populares tendem a ser maduros.
-
+![Descrição da imagem](image/Grafico01)
 ### RQ 02: Sistemas populares recebem muita contribuição externa?
 
 - **Total de pull requests aceitas**: (Necessário atualizar consulta GraphQL para obter esse dado)  

@@ -29,19 +29,6 @@ Este projeto tem como objetivo analisar os 1.000 repositórios mais populares do
 
 ---
 
-## **Estrutura do Projeto**
-
-📂 **src**  
-　┣ 📜 `query_github.py` → Script responsável pela consulta à API GraphQL do GitHub para coletar dados dos repositórios.  
-　┣ 📜 `analysis.py` → Script para processar, analisar e visualizar os dados coletados.  
-
-📂 **data**  
-　┣ 📜 `github_repositories.csv` → Arquivo contendo os dados brutos coletados da API do GitHub.  
-
-📜 **README.md** → Este arquivo, contendo a documentação do projeto.  
-
----
-
 ## **Dependências**
 
 Este projeto foi desenvolvido utilizando **Python 3** e as seguintes bibliotecas:

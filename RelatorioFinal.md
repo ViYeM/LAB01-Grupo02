@@ -45,7 +45,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ### RQ 04: Sistemas populares são atualizados com frequência?
 
 - **Tempo até a última atualização** 
-- **Discussão**: A maioria dos repositórios foi atualizada nos últimos 3 meses, o que indica alta manutenibilidade.
+- **Discussão**: A maioria dos os repositórios passaram por atualizações nos últimos 3 meses, o que sugere uma alta manutenibilidade.
 ![Descrição da imagem](image/Grafico004.jpeg)
 ### RQ 05: Sistemas populares são escritos nas linguagens mais populares?
 

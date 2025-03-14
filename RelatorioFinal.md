@@ -46,7 +46,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 - **Mediana de dias desde a última atualização**: **7 dias**  
 - **Discussão**: Os repositórios mais populares são atualizados com frequência, corroborando a ideia de que esses projetos têm desenvolvimento ativo.
-![Descrição da imagem](image/Grafico04.jpeg)
+![Descrição da imagem](image/Grafico004.jpeg)
 ### RQ 05: Sistemas populares são escritos nas linguagens mais populares?
 
 - **Linguagens mais comuns** (top 5):  

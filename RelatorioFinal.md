@@ -39,12 +39,13 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ![Descrição da imagem](image/Grafico02.jpeg)
 ### RQ 03: Sistemas populares lançam releases com frequência?
 
-- **Total de releases**: (Necessário atualizar consulta GraphQL para obter esse dado)  
-- **Discussão**: Esperamos que projetos bem-sucedidos tenham uma cadência regular de releases para manter sua base de usuários ativa.
+- **Distribuição Assimétrica**: A maior parte dos repositórios concentra-se em faixas baixas de número de releases (entre 0 e 5), indicando que muitos projetos lançam poucas releases.
+- **Pequena parcela com muitas releases**: Observa-se uma queda acentuada à medida que o número de releases aumenta, mas ainda existem repositórios com dezenas de releases, sugerindo que alguns projetos mantêm uma cadência de lançamentos mais frequente.
+- **Possível relação com sucesso/produtividade**: Espera-se que projetos bem-sucedidos e ativos lancem releases com maior regularidade para manter o engajamento e atender às necessidades de sua base de usuários.
+
 ![Descrição da imagem](image/Grafico03.jpeg)
 ### RQ 04: Sistemas populares são atualizados com frequência?
 
-- **Tempo até a última atualização** 
 - **Concentração inicial**: Há uma concentração de repositórios que foram atualizados recentemente (entre 0 e ~100 dias).
 - **Pico secundário**: Observa-se outro pico entre ~200 e 300 dias, indicando que uma parcela considerável não recebe atualização com tanta frequência (de 6 a 10 meses sem atualização).
 - **Cauda longa**: A distribuição se estende até valores próximos de 6000 dias, sugerindo que há projetos sem atualização há muitos anos.

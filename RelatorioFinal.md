@@ -64,8 +64,10 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ![Descrição da imagem](image/Grafico05.jpeg)
 ### RQ 06: Sistemas populares possuem um alto percentual de issues fechadas?
 
-- **Razão issues fechadas / total de issues**: 
-- **Discussão**:A média das fechadas está em torno de 78%, indicando que os problemas são resolvidos rapidamente.
+- **Distribuição do percentual de issues fechadas**: A maior parte dos repositórios apresenta taxas de fechamento elevadas, concentrando-se entre 60% e 100%.
+- **Pico próximo de 100%**: Há um pico significativo na faixa de 90% a 100%, indicando que muitos projetos fecham quase todas as suas issues.
+- **Média em torno de 78%**: Em média, cerca de 78% das issues são fechadas, o que sugere uma boa capacidade de resolução de problemas na maioria dos projetos.
+
 ![Descrição da imagem](image/Grafico06.jpeg)
 
 ## Conclusão

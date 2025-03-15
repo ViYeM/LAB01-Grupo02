@@ -57,14 +57,10 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ![Descrição da imagem](image/Grafico004.jpeg)
 ### RQ 05: Sistemas populares são escritos nas linguagens mais populares?
 
-- **Linguagens mais comuns** (top 5):  
-  - **Python**  
-  - **JavaScript**  
-  - **TypeScript**  
-  - **Go**  
-  - **C++**  
-  
-- **Discussão**: Os resultados confirmam a hipótese de que repositórios populares utilizam linguagens amplamente adotadas na indústria.
+- **Top 5 linguagens**: Python lidera, seguida por TypeScript, JavaScript, Go e C++.
+- **Concentração nas principais linguagens**: Observa-se que essas linguagens são amplamente utilizadas na indústria, o que reforça a adoção por projetos populares.
+- **Confirmação de popularidade**: Os resultados confirmam a hipótese de que os repositórios mais conhecidos tendem a ser escritos em linguagens já consolidadas no mercado.
+
 ![Descrição da imagem](image/Grafico05.jpeg)
 ### RQ 06: Sistemas populares possuem um alto percentual de issues fechadas?
 

@@ -63,10 +63,7 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 - **Razão issues fechadas / total de issues**: 
 - **Discussão**:A média das fechadas está em torno de 78%, indicando que os problemas são resolvidos rapidamente.
 ![Descrição da imagem](image/Grafico06.jpeg)
-### RQ 07: Relação entre linguagem e métricas de contribuição
 
-Para avaliar se sistemas escritos nas linguagens mais populares recebem mais contribuições, lançam mais releases e são atualizados com mais frequência, analisamos a média dessas métricas por linguagem. (Necessário coletar os dados específicos).
-![Descrição da imagem](image/Grafico07.jpeg)
 ## Conclusão
 
 Os repositórios populares no GitHub, em sua maioria, são antigos, frequentemente atualizados e utilizam linguagens amplamente adotadas. Contudo, métricas como pull requests aceitas, número de releases e percentual de issues fechadas requerem uma atualização na consulta GraphQL para uma análise mais aprofundada.

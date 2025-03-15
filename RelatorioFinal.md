@@ -45,7 +45,10 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ### RQ 04: Sistemas populares são atualizados com frequência?
 
 - **Tempo até a última atualização** 
-- **Discussão**: A maioria dos os repositórios passaram por atualizações nos últimos 3 meses, o que sugere uma alta manutenibilidade.
+- **Concentração inicial**: Há uma concentração de repositórios que foram atualizados recentemente (entre 0 e ~100 dias).
+- **Pico secundário**: Observa-se outro pico entre ~200 e 300 dias, indicando que uma parcela considerável não recebe atualização com tanta frequência (de 6 a 10 meses sem atualização).
+- **Cauda longa**: A distribuição se estende até valores próximos de 6000 dias, sugerindo que há projetos sem atualização há muitos anos.
+
 ![Descrição da imagem](image/Grafico004.jpeg)
 ### RQ 05: Sistemas populares são escritos nas linguagens mais populares?
 

@@ -29,8 +29,10 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 
 ### RQ 01: Sistemas populares são maduros/antigos?
 
-- **Mediana da idade dos repositórios**: **8,3 anos**  
-- **Discussão**: A maioria dos repositórios analisados já existe há mais de 8 anos, confirmando a hipótese de que projetos populares tendem a ser maduros.
+- **Distribuição em torno de 8 anos**: Observa-se um pico na faixa de 6 a 10 anos, indicando que a maioria dos repositórios analisados tem uma idade considerável.
+- **Mediana de 8,29 anos**: Metade dos projetos possui mais de 8 anos, o que reforça o grau de maturidade da maioria dos sistemas.
+- **Hipótese de maturidade**: Esses dados apoiam a ideia de que repositórios populares tendem a ser mais antigos e, portanto, maduros em termos de desenvolvimento.
+
 ![Descrição da imagem](image/Grafico01.jpeg)
 ### RQ 02: Sistemas populares recebem muita contribuição externa?
 

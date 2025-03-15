@@ -34,8 +34,10 @@ O objetivo deste estudo é analisar as características dos 1.000 repositórios 
 ![Descrição da imagem](image/Grafico01.jpeg)
 ### RQ 02: Sistemas populares recebem muita contribuição externa?
 
-- **Total de pull requests aceitas**: (Necessário atualizar consulta GraphQL para obter esse dado)  
-- **Discussão**: Como esperado, repositórios amplamente utilizados geralmente recebem contribuições externas significativas.
+- **Distribuição altamente assimétrica**: A maior parte dos repositórios tem poucas pull requests aceitas (concentradas na parte inicial do eixo), mas ainda há uma parcela que recebe um volume muito alto de contribuições.
+- **Mediana elevada**: A mediana de 832 indica que metade dos repositórios analisados tem 832 ou mais pull requests aceitas, sugerindo que, embora haja muitos projetos com poucas contribuições, também existem projetos extremamente ativos.
+- **Repositórios populares e ativos**: Como esperado, os projetos mais amplamente utilizados costumam ter um número significativo de contribuições externas, refletido na cauda longa do gráfico.
+
 ![Descrição da imagem](image/Grafico02.jpeg)
 ### RQ 03: Sistemas populares lançam releases com frequência?
 
